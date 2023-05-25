@@ -89,6 +89,6 @@ db.update_values("Venues", "id", 1, address="Old Ife Road")
 
 # D FOR DELETE
 
-#db.drop_table("Shows")
+db.drop_table("Shows")
 
-#db.drop_column("Shows", "start_time")
+db.drop_column("Shows", "start_time")
