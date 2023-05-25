@@ -1,0 +1,162 @@
+{
+    "Venues": [
+        {
+            "id": 1,
+            "name": "Grand Music Parlor",
+            "city": "Ibadan",
+            "state": "Oyo",
+            "address": "Old Ife Road",
+            "phone": 909383844,
+            "genres": [
+                "pop",
+                "jazz",
+                "classical",
+                "folk"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Blud Haven",
+            "city": "Ikeja",
+            "state": "Lagos",
+            "address": "Ikeja",
+            "phone": 717263844,
+            "genres": [
+                "christian",
+                "jazz",
+                "folk"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Home of Music",
+            "city": "Ibadan",
+            "state": "Oyo",
+            "address": "3, oritameta",
+            "phone": 922332104,
+            "genres": [
+                "apala",
+                "folk",
+                "Raggae"
+            ]
+        }
+    ],
+    "Artists": [
+        {
+            "id": 1,
+            "name": "Emma",
+            "city": "Ibadan",
+            "state": "Oyo",
+            "address": "2 old Ife Road",
+            "phone": 8098184548,
+            "genres": [
+                "jazz",
+                "pop"
+            ],
+            "facebook": "emma.facebook.com",
+            "website": "emma.space.me"
+        },
+        {
+            "id": 2,
+            "name": "Ameh",
+            "city": "Nsukka",
+            "state": "Enugu",
+            "address": "1 Ake street",
+            "phone": 7113557878,
+            "genres": [
+                "classical",
+                "pop"
+            ],
+            "facebook": "ameh.facebook.com",
+            "website": "ameh.space.me"
+        },
+        {
+            "id": 3,
+            "name": "Danny",
+            "city": "Ikeja",
+            "state": "Lagos",
+            "address": "Ikeja street",
+            "phone": 947483902,
+            "genres": [
+                "christian",
+                "folk"
+            ],
+            "facebook": "danny.facebook.com",
+            "website": "danny.space.me"
+        },
+        {
+            "id": 4,
+            "name": "Aminah",
+            "city": "Lafia",
+            "state": "Nassarawa",
+            "address": "Gwa road",
+            "phone": 46737338,
+            "genres": [
+                "jam"
+            ],
+            "facebook": "aminah.facebook.com",
+            "website": "aminah.space.me"
+        },
+        {
+            "id": 5,
+            "name": "Romoke",
+            "city": "Ijesha",
+            "state": "Ogun",
+            "address": "Ilesha",
+            "phone": 8098184548,
+            "genres": [
+                "Rap",
+                "pop",
+                "Hip hop"
+            ],
+            "facebook": "romoke.facebook.com",
+            "website": "romoke.space.me"
+        },
+        {
+            "id": 6,
+            "name": "Kaleh",
+            "city": "Kano",
+            "state": "Kano",
+            "address": "Goshin",
+            "phone": 366785478,
+            "genres": [
+                "Afro",
+                "Highlife"
+            ],
+            "facebook": "kaleh.facebook.com",
+            "website": "kaleh.space.me"
+        }
+    ],
+    "Shows": [
+        {
+            "id": 1,
+            "artist_id": 1,
+            "venue_id": 1,
+            "date": "2023-05-25"
+        },
+        {
+            "id": 2,
+            "artist_id": 2,
+            "venue_id": 2,
+            "date": "2023-05-25"
+        },
+        {
+            "id": 3,
+            "artist_id": 3,
+            "venue_id": 3,
+            "date": "2023-05-25"
+        },
+        {
+            "id": 4,
+            "artist_id": 1,
+            "venue_id": 2,
+            "date": "2023-05-25"
+        },
+        {
+            "id": 5,
+            "artist_id": 2,
+            "venue_id": 1,
+            "date": "2023-05-25"
+        }
+    ]
+}
