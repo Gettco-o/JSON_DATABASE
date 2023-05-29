@@ -10,7 +10,7 @@
 ### Alternatively
 - Download the source code from https://github.com/Gettco-o/JSON_DATABASE
 - copy the json_db folder into your project directory
-- you are ready to use the database
+- you are ready to use the database 😉
 
 ## Import requirements
 import the database module with the following command
@@ -34,7 +34,7 @@ The database implements basic CRUD operations.
 
 The json file can be checked to see the updates on the database.
 
-### To create tables in the database
+### Create tables in the database
 use the create_tables() function with the table names to be created passed in as arguments
 
 ```python
@@ -110,3 +110,50 @@ db.insert_values("Show", artist_id=1, venue_id=2, date=str(date.today()))
 
 db.insert_values("Show", artist_id=2, venue_id=1, date=str(date.today()))
 ```
+
+## Read
+
+### Get the whole data in the database 
+To do this, the get_all() method is used
+```python
+db.get_all()
+```
+
+This returns the whole data as a dictionary object.
+
+### Retrieve the database tables
+To retrieve the database tables, the get_tables() is used
+```python
+db.get_tables()
+```
+
+This returns a list of all tables in the database
+
+### Retrieve table data
+To get the data of a particular table, we use the get_table_data() method with the table name as argument
+```python
+db.get_table_data("Venue")
+db.get_table_data("Artist")
+db.get_table_data("Show")
+```
+
+A list of dictionary objects is returned for each table
+
+### Get data by filter
+To retrieve a table data by a particular column value, the filter() method is used while the arguments will be the table name, and the key value pair of the column-value to filter with.
+
+For example, to get the Venue data where id is 1 and name is Blud Haven,
+```python
+db.filter("Venue", id=2, name="Blud Haven")
+```
+This will return a list of dictionary object of the data that has an id of 1 and name Blud Haven. If there is no match, it returns None or null value.
+
+To get the Artist data where state is Oyo
+```python
+db.filter("Artist", state="Oyo")
+```
+
+```python
+db.filter("Show", artist_id=2 )
+```
+Returns list of show data where artist_id is 2
